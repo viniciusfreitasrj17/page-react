@@ -7,7 +7,7 @@ The project is still under development, have patience !!!
 
 Install the dependece
 
-`yarn install`
+ `yarn install`
 
 ## Available Scripts
 
