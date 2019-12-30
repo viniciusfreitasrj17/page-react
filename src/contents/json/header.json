@@ -5,5 +5,9 @@
         "Portfólio",
         "Sobre",
         "Contato"
-    ]
+    ],
+    "img": {
+        "src": "../logo192.png",
+        "alt": "Logo React"
+    }
 }
