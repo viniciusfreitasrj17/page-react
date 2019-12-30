@@ -1,0 +1,9 @@
+{
+    "title": "Página em React",
+    "navbar": [
+        "Início",
+        "Portfólio",
+        "Sobre",
+        "Contato"
+    ]
+}
