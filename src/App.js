@@ -2,14 +2,15 @@ import React from 'react';
 
 import './App.css';
 import Header from './components/Header'
+import SectionGhost from './components/SectionGhost';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className="container">
-        <h1>Body</h1>
-      </div>
+      <SectionGhost />
+      <Main />
     </div>
   );
 }
