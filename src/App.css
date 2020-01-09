@@ -19,12 +19,9 @@ a {
   height: 40vmin;
   pointer-events: none;
 }
+ */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+/* ----------------------------------------------------------- */
 
 header {
   position: fixed;
@@ -72,6 +69,21 @@ header {
 
 .min-logo img {
   width: 70px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animationOnLogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* -HeaderTitle---------------------------------------------------------- */
@@ -157,7 +169,6 @@ main section:nth-child(even) {
   align-items: center;
 
   /* font-size: calc(10px + 2vmin); */
-  color: white;
 
  /*
 
