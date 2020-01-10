@@ -1,0 +1,63 @@
+/* -HeaderLogo---------------------------------------------------------- */
+
+.logo-header {
+    grid-area: lgo;
+  }
+  
+  .logo-header img {
+    transition: transform 1s;
+  }
+  
+  .max-logo img {
+    width: 100px;
+  }
+  
+  .min-logo img {
+    width: 70px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .animationLogo20 {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .animationLogo10 {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .animationLogo5 {
+      animation: App-logo-spin infinite 5s linear;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .animationLogo2-5 {
+      animation: App-logo-spin infinite 2.5s linear;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .animationLogo1-25 {
+      animation: App-logo-spin infinite 1.25s linear;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .animationLogo1 {
+      animation: App-logo-spin infinite 1s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

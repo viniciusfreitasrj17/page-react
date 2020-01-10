@@ -1,5 +1,5 @@
 // import React from 'react'
 
-// export function jsonToObj(f) {
-//   return JSON.parse(f)
+// export function f(f) {
+//   return f
 // }
